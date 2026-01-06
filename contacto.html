@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Facultad de Obstetricia</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/logo/favicon.png">
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="img/logo/logo.png" alt="Logo" class="logo-navbar me-2">
+        <span>Obstetricia UNICA</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="admision.html">Admisión y Estudios</a></li>
+                <li class="nav-item"><a class="nav-link" href="investigacion.html">Investigación</a></li>
+                <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link active" href="contacto.html">Contacto</a></li>
+            </ul>
+                <a href="https://aulavirtual.unica.edu.pe/" 
+                class="btn btn-primary ms-lg-3" 
+                target="_blank" 
+                rel="noopener">
+                Aula Virtual
+                </a>
+
+        </div>
+    </div>
+</nav>
+
+<!-- HEADER CONTACTO -->
+<section class="py-5 bg-light text-center">
+    <div class="container">
+        <h1 class="fw-bold">Contáctanos</h1>
+        <p class="lead mt-3">Estamos aquí para resolver tus dudas y brindarte información</p>
+    </div>
+</section>
+
+<!--  INFORMACIÓN Y FORMULARIO -->
+<section class="py-5">
+    <div class="container">
+        <div class="row g-4">
+            <!-- Información de contacto -->
+            <div class="col-md-5">
+                <h3>Información de Contacto</h3>
+                <p class="mt-3">
+                <i class="bi bi-geo-alt-fill me-2"></i>Av. Los Maestros s/n Ciudad Universitaria<br>(Panamericana Sur Km. 305) Ica</p>
+                <p><i class="bi bi-telephone-fill me-2"></i>056-761194</p>
+                <p><i class="bi bi-envelope-fill me-2"></i>obstetricia@unica.edu.pe</p>
+                <p><i class="bi bi-clock-fill me-2"></i>Lunes a Viernes – 8:00 a.m. a 5:00 p.m.</p>
+            </div>
+
+            <!-- Formulario -->
+            <div class="col-md-7">
+                <h3>Envíanos un Mensaje</h3>
+                <form class="mt-3">
+                    <div class="mb-3">
+                        <label class="form-label">Nombre completo</label>
+                        <input type="text" class="form-control" placeholder="Ingresa tu nombre">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" placeholder="Ingresa tu correo">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Asunto</label>
+                        <input type="text" class="form-control" placeholder="Asunto del mensaje">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Mensaje</label>
+                        <textarea class="form-control" rows="5" placeholder="Escribe tu mensaje"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- MAPA UBICACIÓN -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h3 class="text-center mb-4">Ubicación de la Facultad</h3>
+
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <iframe 
+                    src="https://www.google.com/maps?q=-14.090618,-75.731871&z=18&output=embed"
+                    width="100%"
+                    height="700"
+                    style="border:0; border-radius: 15px;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!--  FOOTER -->
+<footer class="py-4 text-center bg-light">
+    <div class="container">
+        <p class="mb-0">© 2026 Facultad de Obstetricia – Universidad Nacional “San Luis Gonzaga”</p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- JS personalizado -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
